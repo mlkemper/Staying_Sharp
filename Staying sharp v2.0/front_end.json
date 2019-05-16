@@ -1,0 +1,1487 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "test my memory",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": [
+                        "I dont know",
+                        "No idea"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "I need a hint",
+                        "hint please",
+                        "can I get a hint",
+                        "repeat the words",
+                        "repeat the numbers",
+                        "repeat words",
+                        "repeat numbers",
+                        "can you repeat the numbers",
+                        "can you repeat numbers",
+                        "hint",
+                        "I don't remember",
+                        "give me a hint",
+                        "could you repeat that",
+                        "No clue ",
+                        "Don't know ",
+                        "I don't know",
+                        "help",
+                        "what was the original list",
+                        "original list what was it",
+                        "say the list again ",
+                        "repeat the list",
+                        "repeat",
+                        "can you repeat the words",
+                        "what were the words",
+                        "original list",
+                        "what was the list",
+                        "list of words",
+                        "can you repeat the list of words"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "end exercise ",
+                        "stop",
+                        "I don't want to play anymore",
+                        "I am done"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "new game",
+                        "Restart the game",
+                        "I want to play again",
+                        "Play again",
+                        "Restart"
+                    ]
+                },
+                {
+                    "name": "ExerciseSelectionIntent",
+                    "slots": [
+                        {
+                            "name": "exercise",
+                            "type": "exercise",
+                            "samples": [
+                                "Numbers",
+                                "Words"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{exercise} track",
+                        "Start the {exercise} exercise",
+                        "{exercise}",
+                        "Work with {exercise}",
+                        "I want to do {exercise}",
+                        "I want to test {exercise}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "start the game ",
+                        "let's do this ",
+                        "yes alexa",
+                        "yes start the exercise",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "don't start it ",
+                        "No"
+                    ]
+                },
+                {
+                    "name": "StartIntent",
+                    "slots": [],
+                    "samples": [
+                        "start the memory exercise",
+                        "staying sharp",
+                        "open staying sharp",
+                        "Test my memory ",
+                        "Alexa test my memory "
+                    ]
+                },
+                {
+                    "name": "UserNumberAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "it is {Number}",
+                        "the number is {Number}",
+                        "{Number}"
+                    ]
+                },
+                {
+                    "name": "UserAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "answerslot",
+                            "samples": [
+                                "Red",
+                                "Blue",
+                                "Orange",
+                                "Pink",
+                                "Black",
+                                "Yellow",
+                                "Green",
+                                "Purple",
+                                "Brown",
+                                "Magenta",
+                                "Tan",
+                                "Cyan",
+                                "Olive",
+                                "Maroon",
+                                "Navy",
+                                "Aquamarine",
+                                "Turquoise",
+                                "Silver",
+                                "Lime",
+                                "Teal",
+                                "Indigo",
+                                "Violet",
+                                "White",
+                                "Gray",
+                                "woodchuck",
+                                "rhino",
+                                "cat",
+                                "elephant",
+                                "monkey",
+                                "buffalo",
+                                "walrus",
+                                "dog",
+                                "leopard",
+                                "panther",
+                                "parakeet",
+                                "flamingo",
+                                "tiger",
+                                "starfish",
+                                "iguana",
+                                "shark",
+                                "aardvark",
+                                "cow",
+                                "frog",
+                                "arithmetic",
+                                "calculator",
+                                "desk",
+                                "grades",
+                                "highlighter",
+                                "library",
+                                "map",
+                                "pencil",
+                                "protractor",
+                                "question",
+                                "student",
+                                "teacher",
+                                "principal",
+                                "encyclopedia",
+                                "parrot",
+                                "experiment",
+                                "exam",
+                                "geography",
+                                "homework",
+                                "lunch",
+                                "archery",
+                                "badminton",
+                                "baseball",
+                                "basketball",
+                                "boxing",
+                                "golf",
+                                "karate",
+                                "swimming",
+                                "rowing",
+                                "track",
+                                "tennis",
+                                "weightlifting",
+                                "squash",
+                                "dancing",
+                                "softball",
+                                "ping-pong",
+                                "bowling",
+                                "cricket",
+                                "handball",
+                                "gymnastics",
+                                "ankle",
+                                "arm",
+                                "back",
+                                "beard",
+                                "blood",
+                                "body",
+                                "bone",
+                                "brain",
+                                "cheek",
+                                "chest",
+                                "chin",
+                                "ear",
+                                "elbow",
+                                "eye",
+                                "face",
+                                "feet",
+                                "finger",
+                                "foot",
+                                "hair",
+                                "hand",
+                                "head",
+                                "heart",
+                                "hip",
+                                "knee",
+                                "leg",
+                                "lip",
+                                "moustache",
+                                "mouth",
+                                "muscle",
+                                "nail",
+                                "neck",
+                                "nose",
+                                "shoulders",
+                                "skin",
+                                "stomach",
+                                "teeth",
+                                "throat",
+                                "thumb",
+                                "toe",
+                                "tongue",
+                                "tooth",
+                                "wrist",
+                                "scroll",
+                                "click",
+                                "copy",
+                                "cut",
+                                "command",
+                                "database",
+                                "delete",
+                                "digital",
+                                "file",
+                                "find",
+                                "font",
+                                "format",
+                                "graphic",
+                                "icon",
+                                "hardware",
+                                "input",
+                                "interactive",
+                                "Internet",
+                                "keyboard",
+                                "menu",
+                                "modem",
+                                "mouse",
+                                "multimedia",
+                                "network",
+                                "printer",
+                                "processing",
+                                "replace",
+                                "save",
+                                "scanner",
+                                "search",
+                                "select",
+                                "software",
+                                "sonic screwdriver",
+                                "belt",
+                                "blouse",
+                                "boots",
+                                "cap",
+                                "cardigan",
+                                "coat",
+                                "dress",
+                                "gloves",
+                                "hat",
+                                "jacket",
+                                "jeans",
+                                "overalls",
+                                "overcoat",
+                                "pajamas",
+                                "pants",
+                                "raincoat",
+                                "scarf",
+                                "shirt",
+                                "shoes",
+                                "shorts",
+                                "skirt",
+                                "slacks",
+                                "slippers",
+                                "socks",
+                                "stockings",
+                                "suit",
+                                "sweater",
+                                "t-shirt",
+                                "tie",
+                                "trousers",
+                                "vest"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "the answer is {answer}",
+                        "{answer}",
+                        "the word is {answer}",
+                        "it is {answer}"
+                    ]
+                },
+                {
+                    "name": "TipIntent",
+                    "slots": [],
+                    "samples": [
+                        "tip",
+                        "can I get a tip",
+                        "tip please",
+                        "can I have a tip",
+                        "any tips",
+                        "tips"
+                    ]
+                },
+                {
+                    "name": "RestartIntent",
+                    "slots": [],
+                    "samples": [
+                        "restart the game ",
+                        "play from beginning ",
+                        "start the game again",
+                        "Play again"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "InstructionsIntent",
+                    "slots": [],
+                    "samples": [
+                        "I'm having trouble",
+                        "What am I supposed to do",
+                        "Instructions",
+                        "I'm confused ",
+                        "Repeat the instructions",
+                        "I don't get it ",
+                        "Sample Answer",
+                        "I don't understand",
+                        "What's happening "
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "answerslot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Red"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Blue"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Orange"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pink"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Black"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yellow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Green"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Purple"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brown"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Magenta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cyan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Olive"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Maroon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Navy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aquamarine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Turquoise"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Silver"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lime"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Teal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Indigo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Violet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "White"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gray"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "woodchuck"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rhino"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "elephant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "monkey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "buffalo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "walrus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "leopard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "panther"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parakeet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flamingo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tiger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "starfish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "iguana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shark"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aardvark"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "frog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arithmetic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "calculator"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "desk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grades"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "highlighter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "library"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "map"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pencil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "protractor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "question"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "student"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "teacher"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "principal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "encyclopedia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parrot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "experiment"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "exam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "geography"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "homework"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lunch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "archery"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "badminton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "baseball"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "basketball"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "boxing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "golf"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "karate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "swimming"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rowing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "track"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tennis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "weightlifting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "squash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dancing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "softball"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ping-pong"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bowling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cricket"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "handball"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gymnastics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ankle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arm"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "back"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "beard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "blood"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "body"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "brain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cheek"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chest"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ear"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "elbow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eye"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "face"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "feet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "finger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "foot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hair"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "head"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "heart"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "knee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "leg"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "moustache"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mouth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "muscle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nail"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "neck"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nose"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shoulders"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "skin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "stomach"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "teeth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "throat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thumb"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "toe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tongue"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tooth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wrist"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "scroll"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "click"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "copy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cut"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "command"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "database"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "delete"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "digital"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "file"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "find"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "font"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "format"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "graphic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "icon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hardware"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "input"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "interactive"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Internet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "keyboard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "menu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "modem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mouse"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "multimedia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "network"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "printer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "processing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "replace"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "save"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "scanner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "search"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "select"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "software"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sonic screwdriver"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "belt"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "blouse"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "boots"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cap"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cardigan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "coat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dress"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gloves"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jacket"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jeans"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "overalls"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "overcoat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pajamas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pants"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "raincoat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "scarf"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shirt"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shoes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shorts"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "skirt"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "slacks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "slippers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "socks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "stockings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "suit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sweater"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "t-shirt"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "trousers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vest"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "exercise",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "numbers",
+                                "synonyms": [
+                                    "number"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "words",
+                                "synonyms": [
+                                    "word"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "ExerciseSelectionIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "exercise",
+                            "type": "exercise",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.518734215429.508689933353"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.531017190185.901488558530.677260003073",
+                                    "values": [
+                                        "Numbers",
+                                        "Words",
+                                        "numbers",
+                                        "words"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "UserAnswerIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "answerslot",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.641301425885.571140461392"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.953764774359.1075558019125",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Would you like to work with numbers or words?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.243611062933.1160781838028.1048004424211",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "choose between numbers or words"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.518734215429.508689933353",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry, would you like to work with words or numbers?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.641301425885.571140461392",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Can you please say the word you remember from the list?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.531017190185.901488558530.677260003073",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, would you like to work with numbers or words?"
+                    }
+                ]
+            }
+        ]
+    }
+}
